@@ -18,7 +18,6 @@ public class Main {
             WithoutHome withoutHome = new WithoutHome();
             saxParser.parse(inputFile, withoutHome);
             withoutHome.querty1();
-            System.out.println("--------------------------------------------------");
             withoutHome.querty2();
         } catch (Exception e) {
             e.printStackTrace();
